@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer{
+    font-size: 10pt;
+    color:rgb(145, 145, 145);
+    margin-top: 20rem;
+    background-color:rgb(255, 234, 199);
+}
+
+.business{
+    color:rgb(145, 145, 145);
+}
+

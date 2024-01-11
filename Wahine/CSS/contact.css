@@ -1,0 +1,147 @@
+@font-face {
+    font-family: 'BinggraeMelona-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/BinggraeMelona-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ChosunKg';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/ChosunKg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --color_main: #fbfbe5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: papayawhip;
+}
+
+nav {
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background-color: papayawhip;
+}
+
+.menu {
+    /* border: 1px solid; */
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 1rem;
+    font-size: 18pt;
+    font-weight: bold;
+    justify-content: end;
+    margin-right: 30px;
+    /* font-family: 'BinggraeMelona-Bold'; */
+    font-family: 'ChosunKg';
+
+
+}
+
+
+
+.spotify {
+    font-size: 50px;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 3px 13px;
+
+}
+
+.btn:hover {
+    background-color: black;
+    border-radius: 50px;
+    color: white;
+    padding: 3px 13px;
+}
+
+
+.logo {
+    width: 200px;
+    height: 100px;
+    margin-left: 20px;
+}
+
+.logo_img {
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+}
+
+.section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    margin-top: 10rem;
+}
+
+h1 {
+    border-bottom: 7px solid;
+    padding: 10px;
+    /* font-family: 'BinggraeMelona-Bold'; */
+    font-family: 'ChosunKg';
+}
+
+.icon_box{
+    width: fit-content;
+    height: 100%;
+    /* border: 1px solid blue; */
+    justify-content:center;
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+    gap:5rem;
+    margin-top: 2rem;
+}
+
+
+.icon{
+    display: flex;
+    /* border: 1px solid; */
+    gap:1rem;
+    font-family: 'ChosunKg';
+    
+}
+
+.icon1{
+    font-size: 50px;
+}
+
+.media{
+    display: flex;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 7px;
+
+}
+
+
+@media screen and (max-width:640px) {
+    html,body{
+        min-width: auto;
+        /* font-size: 13px; */
+    }
+
+}
